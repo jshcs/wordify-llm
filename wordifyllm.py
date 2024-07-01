@@ -26,7 +26,7 @@ class WordifyLLM():
             "content": [
                 {
                 "type": "text",
-                "text": "Imagine yourself as the English Dictionary, suggest a list of 5 words that best describe the input sentence. Just output the words, nothing else."
+                "text": "Answer in one word and prefix it with \"Best Match:\" and give 4 alternatives after the best match in a new line and prefix it with \"Alternatives:\"."
                 }
             ]
             },
@@ -35,7 +35,7 @@ class WordifyLLM():
             "content": [
                 {
                 "type": "text",
-                "text": self.user_input
+                "text": "What is " + self.user_input
                 }
             ]
             }
