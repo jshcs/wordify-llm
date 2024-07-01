@@ -40,6 +40,9 @@ Best Match: Programmer
 Alternatives: Developer, Engineer, Coder, Software Architect
 ```
 
+## Input moderation
+The input is moderated using OpenAI's Moderation endpoint to prevent harmful inputs from hitting the main GPT endpoint.
+
 ## Prerequisites
 1. Python 3.7+
 3. OpenAI SDK. Please follow the instructions in this [tutorial](https://platform.openai.com/docs/quickstart) to set up the development enviroment.
